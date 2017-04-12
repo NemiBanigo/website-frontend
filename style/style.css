@@ -1,105 +1,140 @@
 body {
-	margin: 0 ;
-	font-family: 'Open Sans', sans-serif;
-}
+margin: 0 ;
 
+}
+header{
+	padding-top: 30px;
+	margin-bottom: 40px;	
+}
 header .logo {
-	float: left;
+float: left;
 }
 header .logo img{
-	height: 30px;
+    height: 130px;
+    margin-left: 60px;
+    margin-top: -30px;
 
 
 }
 header .sponsored-logo {
-	float: right;
-	color: #ffffff;
+float: right;
+color: #ffffff;
 
+}
+
+header .sponsored-logo p{
+	display: inline-block;
+	width: 40%;
+	margin-left: 30%;
+	margin-top: 0;
+	text-align: right;
+	margin-right: 10px;	
+	font-size: 14px;
+    font-weight: 300;
 }
 
 header .sponsored-logo img{
-	height: 30px;
-	
-}
-
-header {
-	padding-top: 30px;
-	margin-bottom: 40px;
-}
-
-.clear {
-	clear: both;
+height: 50px;
 
 }
+
+header .clear{
+	clear: both !important;
+}
+
 
 #body-section {
-	background-image: url('../images/musicin.jpg');
-	background-size: cover;
-	padding: 140px 0;
-	margin-top: -70px;
-	position: relative;
+background-image: url('../images/musicin.jpg');
+background-size: cover;
+padding: 140px 0;
+margin-top: -70px;
+position: relative;
 
 }
 
 #body-section .training-program {
-	font-size: 40px;
-	color: #ffffff;
-	display: inline-block;
-	font-weight: bold;
-	width: 20%;
-	margin-left: 15%;
-	margin-top: 0;
-	font-weight: 500;
-	
-
-
-	
-	
-
-
+font-size: 36px;
+color: #ffffff;
+display: inline-block;
+font-weight: bold;
+width: 27%;
+margin-left: 20%;
+margin-top: 0;
+font-weight: 700;
+line-height: 1.15;
 }
 
 #body-section .musician {
-	display: inline-block;
-	font-size: 15px;
-	color: #ffffff;
-	margin-left: 25%;
-	width: 30%;
-	margin-top: 0;
-	padding-top: 15px;
-	font-weight: 50;
-	line-height: 25px;
-
-	
-	
-
+display: inline-block;
+font-size: 18px;
+color: #ffffff;
+margin-left: 10%;
+width: 30%;
+margin-top: 0;
+padding-top: 15px;
+font-weight: 100;
+line-height: 25px;
 
 }
 #body-section .menu{
-	position: absolute;
-	left: 20px;
-	top: 200px;
+    position: absolute;
+    left: 60px;
+    top: 400px;
 
 }
 
 .musician .btn {
-	padding: 15px 25px;
-	border: 1px solid #ffffff;
-
+padding: 12px 30px;
+border: 1px solid #ffffff;
+margin-top: 50px;
+float: left;
+border-radius: 23px;
+background: #fff;
+color: #121b5e;
+text-decoration: none;
+font-weight: 500;
 }
 
 .menu ul {
 list-style: none;
 padding-left: 0;
+color: #ffffff;
+height: 50px;
+
+}
+.menu ul li{
+	display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 0.4px;
+}
+.menu ul li:hover {
+	cursor: pointer;
+}
+.menu ul li span{
+	margin-right: 10px;
 }
 
 .menu ul li span{
-height: 20px;
-width: 20px;
+height: 18px;
+width: 18px;
 display: inline-block;
 border-radius: 100%;
 border: 1px solid #ffffff;
-
+color: #ffffff;
+font-size: 10px;
+m
 }
 
-
+.menu ul li span:hover{
+	height: 20px;
+	width: 20px;	
+}
+.ease{
+	transition: all ease .7s;
+	-moz-transition: all ease .7s;
+	-webkit-transition: all ease .7s;
+	-o-transition: all ease .7s;
+}
