@@ -42,7 +42,7 @@ header {
 }
 
 #body-section .training-program {
-	font-size: 40px;
+	font-size: 2.5em;
 	color: #ffffff;
 	display: inline-block;
 	font-weight: bold;
@@ -50,7 +50,8 @@ header {
 	margin-left: 15%;
 	margin-top: 0;
 	font-weight: 500;
-	
+	line-height: 1.15;
+
 
 
 	
@@ -91,6 +92,8 @@ header {
 .menu ul {
 list-style: none;
 padding-left: 0;
+color: #ffffff;
+line-height: 10px;
 }
 
 .menu ul li span{
@@ -99,6 +102,9 @@ width: 20px;
 display: inline-block;
 border-radius: 100%;
 border: 1px solid #ffffff;
+color: #ffffff;
+font-size: 10px;
+
 
 }
 
